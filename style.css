@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 1em;
+  color: #333333;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  flex: 2;
+}
+
+.nav ul {
+  padding-left: 7em;
+  font-size: 12px;
+  flex: 5;
+  list-style: none;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.nav li:first-child {
+  border-bottom: 1px solid #333333;
+}
+
+.nav li {
+  margin-right: 5em;
+}
+
+.main {
+  padding-top: 2em;
+  display: flex;
+}
+
+.main-left {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.main-left h1 {
+  color: #BDBDBD;
+  font-weight: 300;
+  font-size: 64px;
+  margin: 0;
+}
+
+.main-right {
+  flex: 2;
+  background-color: red;
+  position: relative;
+}
+
+.main-right img {
+  background-image: url(/images/mainimage.png);
+  background-size: cover;
+}
+
+.main-left h1:last-child {
+  font-size: 64px;
+  font-weight: 700;
+  color: #333333;
+  text-align: left;
+}
+
+.main-left-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-right span {
+  background-color: white;
+  position: absolute;
+  height: 100px;
+  width: 150px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
