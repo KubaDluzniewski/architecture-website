@@ -37,7 +37,7 @@ body {
 }
 
 .main-left {
-  flex: 1;
+  flex: 0.4;
   justify-content: center;
   text-align: center;
   display: grid;
@@ -52,14 +52,16 @@ body {
 }
 
 .main-right {
-  flex: 2;
+  flex: 0.5;
+  height: 600px;
   background-color: red;
   position: relative;
+  background-image: url("images/mainimage.png");
+  background-size: cover;
 }
 
-.main-right img {
-  background-image: url(/images/mainimage.png);
-  background-size: cover;
+.main-right {
+  display: flex;
 }
 
 .main-left h1:last-child {
@@ -74,14 +76,24 @@ body {
   flex-direction: column;
 }
 
-.main-right span {
+.main-right-text {
+  height: 60px;
+  width: 180px;
   background-color: white;
   position: absolute;
-  height: 100px;
-  width: 150px;
-  text-align: center;
   bottom: 0;
   left: 0;
+}
+
+.main-right-text span {
+  font-size: 12px;
+  position: relative;
+  left: 2em;
+  top: 2em;
+}
+
+.main-right-text a:link {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
