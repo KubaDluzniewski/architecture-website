@@ -48,7 +48,6 @@ body{
 .main-right{
     flex: 0.5;
     height: 600px;
-    background-color: red;
     position: relative;
     background-image:url("images/mainimage.png");
     background-size: cover;
@@ -84,21 +83,30 @@ body{
     text-decoration: none;
 }
 .about{
-    height: 500px;
+    padding-left: 15em;
+    padding-right: 15em;
+    display: flex;
+    background-color: #FBFBFB;
+    margin-top: 50px;
+}
+.about-left img{
+    width: 270px;
+}
+
+.about-left-left-photos:first-child img{
+    height: 265px;
+}
+.about-left-left-photos:only-child(2) img{
+    height: 140px;
+}
+.about-left img{
+    height: 345px;
 }
 .about-right h1{
     color: #BDBDBD;
     font-weight: 300;
     font-size: 64px;
 }
-
 .about-left{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 400px;
-}
-.about-left img{
-    flex-wrap: wrap;
-    width: 270px;
 }
