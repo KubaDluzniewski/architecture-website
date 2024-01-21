@@ -96,4 +96,26 @@ body {
   text-decoration: none;
 }
 
+.about {
+  height: 500px;
+}
+
+.about-right h1 {
+  color: #BDBDBD;
+  font-weight: 300;
+  font-size: 64px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.about-left img {
+  flex-wrap: wrap;
+  width: 270px;
+}
+
 /*# sourceMappingURL=style.css.map */
